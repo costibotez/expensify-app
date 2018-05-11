@@ -18,6 +18,7 @@ const store = configStore();
 store.subscribe(() => {
     console.log(store.getState());
 });
+// add static dummy expense data for testing purposes
 // store.dispatch(addExpense({description: 'Water bill', amount: 4500}));
 // store.dispatch(addExpense({description: 'Gas bill', amount: 100, createdAt: 1000}));
 // store.dispatch(addExpense({description: 'Rent', amount: 1095000}));

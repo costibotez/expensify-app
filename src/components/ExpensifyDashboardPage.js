@@ -5,7 +5,6 @@ import ExpenseListFilters from './ExpenseListFilters';
 const ExpensifyDashboardPage = () => (
     <div>
         <ExpenseListFilters/>
-        <p>This is coming from my dashboard</p>
         <ExpenseList/>
     </div>
 );
