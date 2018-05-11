@@ -18,14 +18,14 @@ const store = configStore();
 store.subscribe(() => {
     console.log(store.getState());
 });
-store.dispatch(addExpense({description: 'Water bill', amount: 4500}));
-store.dispatch(addExpense({description: 'Gas bill', amount: 100, createdAt: 1000}));
-store.dispatch(addExpense({description: 'Rent', amount: 1095000}));
+// store.dispatch(addExpense({description: 'Water bill', amount: 4500}));
+// store.dispatch(addExpense({description: 'Gas bill', amount: 100, createdAt: 1000}));
+// store.dispatch(addExpense({description: 'Rent', amount: 1095000}));
 // store.dispatch(setTextFilter('water'));
 
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-console.log(visibleExpenses);
+// const state = store.getState();
+// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+// console.log(visibleExpenses);
 
 const jsx = (
     <Provider store={store}>
