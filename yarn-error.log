@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run serve
+  /usr/local/bin/node /usr/local/bin/yarn run test
 
 PATH: 
   /Applications/MAMP/bin/php/php7.1.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/MAMP/bin/php/php7.1.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Applications/MAMP/Library/bin/:/Applications/MAMP/Library/bin/
@@ -6568,9 +6568,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 127
+  Exit code: 1
   Command: sh
-  Arguments: -c live-server public/
+  Arguments: -c jest --config=jest.config.json
   Directory: /Applications/MAMP/htdocs/react-projects/expensify-app
   Output:
   
