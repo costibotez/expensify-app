@@ -3,9 +3,6 @@
 exports[`should render ExpenseDashboard 1`] = `
 <div>
   <Connect(ExpenseListFilters) />
-  <p>
-    This is coming from my dashboard
-  </p>
   <Connect(ExpenseList) />
 </div>
 `;
